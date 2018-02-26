@@ -16,14 +16,12 @@ function nowServing(deliLine) {
 }
 
 function currentLine(line) {
-  var array = [];
-  var i = 0;
     if (line.length === 0) {
       return "The line is currently empty.";
     } else {
       for (i = 0; i < line.length; i++) {
-        array.push[i + 1];
-      return "The line is currently: 1. " + array + " 2. " + array + " 3. " + array;
+        var name = line.push();
+      return "The line is currently: 1. " + name + " 2. " + name + " 3. " + name;
     }
   }
 }
