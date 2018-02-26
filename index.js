@@ -14,3 +14,7 @@ function nowServing(deliLine) {
     return "Currently serving " + name + ".";
   }
 }
+
+function currentLine() {
+  
+}
